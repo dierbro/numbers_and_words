@@ -1,7 +1,7 @@
 module NumbersAndWords
   module Strategies
     class It < Base
-      include NumbersAndWords::TranslationsHelpers::En
+      include NumbersAndWords::TranslationsHelpers::It
   
       attr_accessor :figures_in_previous_capacity
   
